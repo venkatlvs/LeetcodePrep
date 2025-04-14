@@ -1,4 +1,5 @@
 import practice.problems.IsomorphicStrings;
+import practice.problems.LongestNonRepeatingSubstring;
 import practice.problems.MaximumSubarray;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -9,10 +10,14 @@ public class Main {
         System.out.println("IsomorphicStrings");
         IsomorphicStrings iso = new IsomorphicStrings();
         iso.executeIsomorphicStrings();
-        System.out.println();
+        System.out.println("-----------");
         System.out.println("MaximumSubarray");
         MaximumSubarray maximumSubarray = new MaximumSubarray();
         maximumSubarray.executeMaximumSubarray();
+        System.out.println("-----------");
+        System.out.println("LongestNonRepeatingSubstring");
+        LongestNonRepeatingSubstring longestNonRepeatingSubstring = new LongestNonRepeatingSubstring();
+        longestNonRepeatingSubstring.executeLongestNonRepeatingSubstring();
 
     }
 }
