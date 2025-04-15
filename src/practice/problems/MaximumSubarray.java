@@ -1,7 +1,5 @@
 package practice.problems;
 
-import practice.utility.Helper;
-
 import static practice.utility.Helper.printArray;
 
 public class MaximumSubarray {
