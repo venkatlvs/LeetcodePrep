@@ -126,10 +126,6 @@ To get started:
 - [NeetCode](https://neetcode.io/) - For curated problem lists and explanations.
 - [Big O Cheat Sheet](https://www.bigocheatsheet.com/) - For quick reference on time and space complexities.
 
-## License
-
-This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Contact
 
 For questions or suggestions, feel free to open an issue or reach out to the repository owner at [venkatlvs](https://github.com/venkatlvs).
