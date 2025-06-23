@@ -1,6 +1,5 @@
-package practice;
-
 import practice.problems.array.MaximumSubarray;
+import practice.problems.sorting.MajorityElement;
 import practice.problems.string.FirstUniqueCharacterInaString;
 import practice.problems.string.IsomorphicStrings;
 import practice.problems.string.LongestNonRepeatingSubstring;
@@ -22,6 +21,10 @@ public class Main {
         System.out.println("FirstUniqueCharacterInaString:");
         FirstUniqueCharacterInaString fs = new FirstUniqueCharacterInaString();
         fs.executeFirstUniqueCharacterInaString();
+        System.out.println("=======================");
+        System.out.println("MajorityElement:");
+        MajorityElement majorityElement = new MajorityElement();
+        majorityElement.executeMajorityElement();
 
     }
 }
