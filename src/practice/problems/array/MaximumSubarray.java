@@ -1,4 +1,4 @@
-package practice.problems;
+package practice.problems.array;
 
 import static practice.utility.Helper.printArray;
 
