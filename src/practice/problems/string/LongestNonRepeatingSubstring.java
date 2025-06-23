@@ -1,4 +1,4 @@
-package practice.problems;
+package practice.problems.string;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -6,7 +6,7 @@ import java.util.Set;
 public class LongestNonRepeatingSubstring {
 
     public void executeLongestNonRepeatingSubstring() {
-        String a = "abcdabcdfabu";
+        String a = "abcabcdfabu";
         System.out.println("The given strings are: "+a);
         System.out.println("The output of the code is: "+ longestNonRepeatingSubstring(a));
     }
