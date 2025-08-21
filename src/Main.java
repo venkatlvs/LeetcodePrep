@@ -1,4 +1,5 @@
 import practice.problems.array.MaximumSubarray;
+import practice.problems.array.MedianOf2SortedArrays;
 import practice.problems.sorting.MajorityElement;
 import practice.problems.string.FirstUniqueCharacterInaString;
 import practice.problems.string.IsomorphicStrings;
@@ -10,6 +11,7 @@ public class Main {
         System.out.println("MaximumSubarray:");
         MaximumSubarray max = new MaximumSubarray();
         max.executeMaximumSubarray();
+        System.out.println("=======================");
         System.out.println("Isomorphic Strings:");
         IsomorphicStrings is = new IsomorphicStrings();
         is.executeIsomorphicStrings();
@@ -25,6 +27,10 @@ public class Main {
         System.out.println("MajorityElement:");
         MajorityElement majorityElement = new MajorityElement();
         majorityElement.executeMajorityElement();
+        System.out.println("=======================");
+        MedianOf2SortedArrays medianOf2SortedArrays = new MedianOf2SortedArrays();
+        medianOf2SortedArrays.executeMedianOf2SortedArrays();
+        System.out.println("=======================");
 
     }
 }
