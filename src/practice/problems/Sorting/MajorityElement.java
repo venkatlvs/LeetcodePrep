@@ -1,4 +1,4 @@
-package practice.problems.sorting;
+package practice.problems.Sorting;
 
 import practice.utility.Helper;
 
