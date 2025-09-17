@@ -15,11 +15,11 @@ public class BreadthFirstApproach {
                         .collect(Collectors.toCollection(() -> new ArrayList<>(adj.length)));
         System.out.println("Input List: "+list);
         BreadthFirstApproach graph = new BreadthFirstApproach();
-        System.out.println("Output: "+ graph.bfs(list));
+        System.out.println("Output: "+ bfs(list));
 
     }
 
-    private ArrayList<Integer>bfs(ArrayList<ArrayList<Integer>> arr){
+    private static ArrayList<Integer>bfs(ArrayList<ArrayList<Integer>> arr){
         int V = arr.size();
         int s = 0;
         ArrayList<Integer> res=new ArrayList<>();
