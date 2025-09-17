@@ -1,5 +1,6 @@
-import practice.problems.array.MaximumSubarray;
-import practice.problems.array.MedianOf2SortedArrays;
+import practice.problems.Arrays.MaximumSubarray;
+import practice.problems.Arrays.MedianOf2SortedArrays;
+import practice.problems.Graphs.BreadthFirstApproach;
 import practice.problems.sorting.MajorityElement;
 import practice.problems.string.FirstUniqueCharacterInaString;
 import practice.problems.string.IsomorphicStrings;
@@ -31,6 +32,10 @@ public class Main {
         MedianOf2SortedArrays medianOf2SortedArrays = new MedianOf2SortedArrays();
         medianOf2SortedArrays.executeMedianOf2SortedArrays();
         System.out.println("=======================");
+        BreadthFirstApproach bfs = new BreadthFirstApproach();
+        bfs.executeBreadthFirstApproach();
+        System.out.println("=======================");
+
 
     }
 }

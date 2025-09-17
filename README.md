@@ -16,12 +16,14 @@ The repository is organized to make it easy to navigate through problems and sol
 
 ```
 LeetcodePrep/
-├── Arrays/
-├── LinkedLists/
-├── Trees/
-├── DynamicProgramming/
-├── Graphs/
-├── SortingAndSearching/
+├── designpatterns/
+├── problems/
+    ├── Arrays    
+    ├── LinkedLists/
+    ├── Trees/
+    ├── DynamicProgramming/
+    ├── Graphs/
+    ├── SortingAndSearching/
 ├── Others/
 └── README.md
 ```
