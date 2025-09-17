@@ -1,6 +1,7 @@
 import practice.problems.Arrays.MaximumSubarray;
 import practice.problems.Arrays.MedianOf2SortedArrays;
 import practice.problems.Graphs.BreadthFirstApproach;
+import practice.problems.Graphs.DepthFirstApproach;
 import practice.problems.sorting.MajorityElement;
 import practice.problems.string.FirstUniqueCharacterInaString;
 import practice.problems.string.IsomorphicStrings;
@@ -35,7 +36,9 @@ public class Main {
         BreadthFirstApproach bfs = new BreadthFirstApproach();
         bfs.executeBreadthFirstApproach();
         System.out.println("=======================");
-
+        DepthFirstApproach dfs = new DepthFirstApproach();
+        dfs.executeDepthFirstApproach();
+        System.out.println("=======================");
 
     }
 }
