@@ -1,6 +1,7 @@
 import practice.problems.Arrays.MaximumSubarray;
 import practice.problems.Arrays.MedianOf2SortedArrays;
 import practice.problems.DynamicProgramming.FibonacciSeries;
+import practice.problems.DynamicProgramming.LongestCommonSubsequence;
 import practice.problems.Graphs.BreadthFirstApproach;
 import practice.problems.Graphs.DepthFirstApproach;
 import practice.problems.Sorting.MajorityElement;
@@ -43,6 +44,8 @@ public class Main {
         FibonacciSeries series = new FibonacciSeries();
         series.executeFibonacciSeries();
         System.out.println("=======================");
+        LongestCommonSubsequence subsequence = new LongestCommonSubsequence();
+        subsequence.executeLongestCommonSubsequence();
 
     }
 }
