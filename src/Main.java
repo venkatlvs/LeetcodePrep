@@ -1,5 +1,6 @@
 import practice.problems.Arrays.MaximumSubarray;
 import practice.problems.Arrays.MedianOf2SortedArrays;
+import practice.problems.Arrays.TrappingRainWater;
 import practice.problems.DynamicProgramming.FibonacciSeries;
 import practice.problems.DynamicProgramming.LongestCommonSubsequence;
 import practice.problems.Graphs.BreadthFirstApproach;
@@ -32,20 +33,29 @@ public class Main {
         MajorityElement majorityElement = new MajorityElement();
         majorityElement.executeMajorityElement();
         System.out.println("=======================");
+        System.out.println("MedianOf2SortedArrays: ");
         MedianOf2SortedArrays medianOf2SortedArrays = new MedianOf2SortedArrays();
         medianOf2SortedArrays.executeMedianOf2SortedArrays();
         System.out.println("=======================");
+        System.out.println("BreadthFirstApproach: ");
         BreadthFirstApproach bfs = new BreadthFirstApproach();
         bfs.executeBreadthFirstApproach();
         System.out.println("=======================");
+        System.out.println("DepthFirstApproach: ");
         DepthFirstApproach dfs = new DepthFirstApproach();
         dfs.executeDepthFirstApproach();
         System.out.println("=======================");
+        System.out.println("FibonacciSeries: ");
         FibonacciSeries series = new FibonacciSeries();
         series.executeFibonacciSeries();
         System.out.println("=======================");
+        System.out.println("LongestCommonSubsequence: ");
         LongestCommonSubsequence subsequence = new LongestCommonSubsequence();
         subsequence.executeLongestCommonSubsequence();
-
+        System.out.println("=======================");
+        System.out.println("TrappingRainWater: ");
+        TrappingRainWater trap = new TrappingRainWater();
+        trap.executeTrappingRainWater();
+        System.out.println("=======================");
     }
 }
