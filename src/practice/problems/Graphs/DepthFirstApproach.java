@@ -1,8 +1,6 @@
 package practice.problems.Graphs;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Stack;
+import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
@@ -26,15 +24,15 @@ public class DepthFirstApproach {
         boolean[] visited = new boolean[V];
         visited[s] = true;
         ArrayList<Integer> res = new ArrayList<>();
-        Stack<Integer> stack = new Stack<>();
-        stack.add(s);
-        while (!stack.isEmpty()){
-            int curr = stack.pop();
+        Deque<Integer> deque = new ArrayDeque<>();
+        deque.add(s);
+        while (!deque.isEmpty()){
+            int curr = deque.pop();
             res.add(curr);
             for(int i:arr.get(curr)){
                 if(!visited[i]){
                     visited[i]=true;
-                    stack.add(i);
+                    deque.add(i);
                 }
             }
         }
