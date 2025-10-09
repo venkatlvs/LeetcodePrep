@@ -1,6 +1,7 @@
 import practice.problems.Arrays.MaximumSubarray;
 import practice.problems.Arrays.MedianOf2SortedArrays;
 import practice.problems.Arrays.TrappingRainWater;
+import practice.problems.Arrays.TwoSum;
 import practice.problems.DynamicProgramming.FibonacciSeries;
 import practice.problems.DynamicProgramming.LongestCommonSubsequence;
 import practice.problems.Graphs.BreadthFirstApproach;
@@ -9,6 +10,7 @@ import practice.problems.Sorting.MajorityElement;
 import practice.problems.Strings.FirstUniqueCharacterInaString;
 import practice.problems.Strings.IsomorphicStrings;
 import practice.problems.Strings.LongestNonRepeatingSubstring;
+import practice.problems.Strings.ValidParantheses;
 
 public class Main {
     public static void main(String[] args) {
@@ -56,6 +58,14 @@ public class Main {
         System.out.println("TrappingRainWater: ");
         TrappingRainWater trap = new TrappingRainWater();
         trap.executeTrappingRainWater();
+        System.out.println("=======================");
+        System.out.println("TwoSum: ");
+        TwoSum twoSum = new TwoSum();
+        twoSum.executeTwoSum();
+        System.out.println("=======================");
+        System.out.println("ValidParantheses: ");
+        ValidParantheses parantheses = new ValidParantheses();
+        parantheses.executeValidParantheses();
         System.out.println("=======================");
     }
 }
