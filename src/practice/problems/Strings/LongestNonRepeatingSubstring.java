@@ -20,8 +20,8 @@ public class LongestNonRepeatingSubstring {
             while(!c.add(s.charAt(right))){
                 c.remove(s.charAt(left++));
             }
-            max =  Math.max(max, right-left+1);
-            start = left;
+            int len = right-left+1;
+            if(len>max) max = len; start = left;
         }
         System.out.println("The longest substring is: "+s.substring(start,start+max));
         return max;
