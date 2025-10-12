@@ -4,6 +4,7 @@ import practice.problems.Arrays.TrappingRainWater;
 import practice.problems.Arrays.TwoSum;
 import practice.problems.DynamicProgramming.ClimbingStairs;
 import practice.problems.DynamicProgramming.FibonacciSeries;
+import practice.problems.DynamicProgramming.HouseRobber;
 import practice.problems.DynamicProgramming.LongestCommonSubsequence;
 import practice.problems.Graphs.BreadthFirstApproach;
 import practice.problems.Graphs.DepthFirstApproach;
@@ -70,6 +71,10 @@ public class Main {
         System.out.println("=======================");
         System.out.println("ClimbingStairs:");
         ClimbingStairs stairs = new ClimbingStairs();
-        stairs.executeClimbingStairs();;
+        stairs.executeClimbingStairs();
+        System.out.println("=======================");
+        System.out.println("HouseRobber:");
+        HouseRobber robber = new HouseRobber();
+        robber.executeHouseRobber();
     }
 }
