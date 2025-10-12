@@ -2,15 +2,14 @@ import practice.problems.Arrays.MaximumSubarray;
 import practice.problems.Arrays.MedianOf2SortedArrays;
 import practice.problems.Arrays.TrappingRainWater;
 import practice.problems.Arrays.TwoSum;
+import practice.problems.DynamicProgramming.ClimbingStairs;
 import practice.problems.DynamicProgramming.FibonacciSeries;
+import practice.problems.DynamicProgramming.HouseRobber;
 import practice.problems.DynamicProgramming.LongestCommonSubsequence;
 import practice.problems.Graphs.BreadthFirstApproach;
 import practice.problems.Graphs.DepthFirstApproach;
 import practice.problems.Sorting.MajorityElement;
-import practice.problems.Strings.FirstUniqueCharacterInaString;
-import practice.problems.Strings.IsomorphicStrings;
-import practice.problems.Strings.LongestNonRepeatingSubstring;
-import practice.problems.Strings.ValidParantheses;
+import practice.problems.Strings.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -67,5 +66,16 @@ public class Main {
         ValidParantheses parantheses = new ValidParantheses();
         parantheses.executeValidParantheses();
         System.out.println("=======================");
+        System.out.println("ClimbingStairs:");
+        ClimbingStairs stairs = new ClimbingStairs();
+        stairs.executeClimbingStairs();
+        System.out.println("=======================");
+        System.out.println("HouseRobber:");
+        HouseRobber robber = new HouseRobber();
+        robber.executeHouseRobber();
+        System.out.println("=======================");
+        System.out.println("IsSubsequence: ");
+        IsSubsequence seq = new IsSubsequence();
+        seq.executeIsSubsequence();;
     }
 }
