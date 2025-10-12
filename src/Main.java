@@ -9,10 +9,7 @@ import practice.problems.DynamicProgramming.LongestCommonSubsequence;
 import practice.problems.Graphs.BreadthFirstApproach;
 import practice.problems.Graphs.DepthFirstApproach;
 import practice.problems.Sorting.MajorityElement;
-import practice.problems.Strings.FirstUniqueCharacterInaString;
-import practice.problems.Strings.IsomorphicStrings;
-import practice.problems.Strings.LongestNonRepeatingSubstring;
-import practice.problems.Strings.ValidParantheses;
+import practice.problems.Strings.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -76,5 +73,9 @@ public class Main {
         System.out.println("HouseRobber:");
         HouseRobber robber = new HouseRobber();
         robber.executeHouseRobber();
+        System.out.println("=======================");
+        System.out.println("IsSubsequence: ");
+        IsSubsequence seq = new IsSubsequence();
+        seq.executeIsSubsequence();;
     }
 }
