@@ -2,6 +2,7 @@ import practice.problems.Arrays.MaximumSubarray;
 import practice.problems.Arrays.MedianOf2SortedArrays;
 import practice.problems.Arrays.TrappingRainWater;
 import practice.problems.Arrays.TwoSum;
+import practice.problems.DynamicProgramming.ClimbingStairs;
 import practice.problems.DynamicProgramming.FibonacciSeries;
 import practice.problems.DynamicProgramming.LongestCommonSubsequence;
 import practice.problems.Graphs.BreadthFirstApproach;
@@ -67,5 +68,8 @@ public class Main {
         ValidParantheses parantheses = new ValidParantheses();
         parantheses.executeValidParantheses();
         System.out.println("=======================");
+        System.out.println("ClimbingStairs:");
+        ClimbingStairs stairs = new ClimbingStairs();
+        stairs.executeClimbingStairs();;
     }
 }
