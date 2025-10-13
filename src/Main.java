@@ -2,10 +2,7 @@ import practice.problems.Arrays.MaximumSubarray;
 import practice.problems.Arrays.MedianOf2SortedArrays;
 import practice.problems.Arrays.TrappingRainWater;
 import practice.problems.Arrays.TwoSum;
-import practice.problems.DynamicProgramming.ClimbingStairs;
-import practice.problems.DynamicProgramming.FibonacciSeries;
-import practice.problems.DynamicProgramming.HouseRobber;
-import practice.problems.DynamicProgramming.LongestCommonSubsequence;
+import practice.problems.DynamicProgramming.*;
 import practice.problems.Graphs.BreadthFirstApproach;
 import practice.problems.Graphs.DepthFirstApproach;
 import practice.problems.Sorting.MajorityElement;
@@ -76,6 +73,10 @@ public class Main {
         System.out.println("=======================");
         System.out.println("IsSubsequence: ");
         IsSubsequence seq = new IsSubsequence();
-        seq.executeIsSubsequence();;
+        seq.executeIsSubsequence();
+        System.out.println("=======================");
+        System.out.println("CoinChange: ");
+        CoinChange coinChange = new CoinChange();
+        coinChange.executeCoinChange();
     }
 }
