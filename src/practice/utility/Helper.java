@@ -11,4 +11,10 @@ public class Helper {
                 .collect(Collectors.joining(", ", "", "."));
         System.out.println(result);
     }
+
+    public static void printStringArray(String[] arr){
+        String result = Arrays.stream(arr)
+                .collect(Collectors.joining(", ", "", "."));
+        System.out.println(result);
+    }
 }

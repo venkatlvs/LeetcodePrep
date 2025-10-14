@@ -78,5 +78,11 @@ public class Main {
         System.out.println("CoinChange: ");
         CoinChange coinChange = new CoinChange();
         coinChange.executeCoinChange();
+        System.out.println("=======================");
+        System.out.println("LongestCommonPrefix: ");
+        LongestCommonPrefix prefix = new LongestCommonPrefix();
+        prefix.executeLongestCommonPrefix();
+        System.out.println("=======================");
+
     }
 }
