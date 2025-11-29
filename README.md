@@ -17,6 +17,9 @@ The repository is organized to make it easy to navigate through problems and sol
 ```
 LeetcodePrep/
 ├── designpatterns/
+├── algorithms/
+    ├── sorting/
+    ├── searching/
 ├── problems/
     ├── Arrays    
     ├── LinkedLists/
