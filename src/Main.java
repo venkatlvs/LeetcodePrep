@@ -1,7 +1,4 @@
-import practice.problems.Arrays.MaximumSubarray;
-import practice.problems.Arrays.MedianOf2SortedArrays;
-import practice.problems.Arrays.TrappingRainWater;
-import practice.problems.Arrays.TwoSum;
+import practice.problems.Arrays.*;
 import practice.problems.DynamicProgramming.*;
 import practice.problems.Graphs.BreadthFirstApproach;
 import practice.problems.Graphs.DepthFirstApproach;
@@ -83,6 +80,9 @@ public class Main {
         LongestCommonPrefix prefix = new LongestCommonPrefix();
         prefix.executeLongestCommonPrefix();
         System.out.println("=======================");
+        System.out.println("Best Time to Buy and Sell Stock: ");
+        BestTimetoBuyandSellStock stock = new BestTimetoBuyandSellStock();
+        stock.executeBestTimetoBuyandSellStock();
 
     }
 }
