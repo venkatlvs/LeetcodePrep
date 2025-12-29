@@ -14,8 +14,8 @@ public class MaximumSubarray {
     private Integer getMaxSubArray(int[] arr){
         int a = arr[0];
         int b = arr[0];
-        for(int i:arr){
-            a = Math.max(i,a+i);
+        for(int i=0;i<arr.length;i++){
+            a = Math.max(arr[i],a+arr[i]);
             b = Math.max(b,a);
         }
         return b;
