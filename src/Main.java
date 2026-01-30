@@ -83,6 +83,10 @@ public class Main {
         System.out.println("Best Time to Buy and Sell Stock: ");
         BestTimetoBuyandSellStock stock = new BestTimetoBuyandSellStock();
         stock.executeBestTimetoBuyandSellStock();
+        System.out.println("=======================");
+        System.out.println("Prime Number: ");
+        PrimeNumber prime = new PrimeNumber();
+        prime.executePrimeNumber();
 
     }
 }
